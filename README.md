@@ -1,5 +1,15 @@
 [![NPM](https://img.shields.io/npm/v/react-week-calendar.svg)](https://www.npmjs.com/package/react-week-calendar)
 
+#TODO
+Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: WeekCalendar
+
+
 # react-week-calendar
 
 A flexible week calendar implemented in [React.js](http://facebook.github.io/react/index.html). Additional dependency is [moment.js](https://momentjs.com/)
