@@ -1,7 +1,8 @@
 [![NPM](https://img.shields.io/npm/v/react-week-calendar.svg)](https://www.npmjs.com/package/react-week-calendar)
-
-#TODO
+---------------------------
+#TODO: </br>
 Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+---------------------------
 
 * Move data fetching code or side effects to componentDidUpdate.
 * If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
